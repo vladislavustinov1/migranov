@@ -1,5 +1,6 @@
 body {
   font-family: "Raleway", sans-serif;
+  width: 100%;
 }
 
 /* header */
@@ -312,6 +313,7 @@ body {
 .content-job .list-unstyled a:hover {
   color: #1b1a1a7a;
 }
+
 /* find us */
 .content-find {
   margin-top: 100px;
@@ -319,4 +321,54 @@ body {
 }
 .content-find .my-map {
   border-left: 1px solid #1b1a1a48;
+}
+/* contact us */
+.content-contact {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.content-contact .text-muted {
+  display: flex;
+  margin-left: 150px;
+  align-items: flex-end;
+}
+.content-contact .needs-validation {
+  background-color: rgba(153, 153, 153, 0.315);
+  border-radius: 14px;
+  padding-bottom: 20px;
+}
+/* registration and authorization */
+.registration-sector {
+  margin-bottom: 100px;
+  margin-top: 70px;
+}
+.registration-sector .container {
+  background-color: #9e959541;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  border-radius: 14px;
+}
+.registration-sector .list-unstyled {
+  background-color: #cfcfcfd0;
+  padding: 20px;
+  border-radius: 14px;
+}
+.registration-sector .forma {
+  max-height: 500px;
+}
+.registration-sector form {
+  max-height: 500px;
+  margin-top: 0;
+}
+.registration-sector .w-75 {
+  width: 75% !important;
+  margin-top: 30px !important;
+}
+.registration-sector .list-unstyled a {
+  color: #1b1a1a;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+.registration-sector .list-unstyled a:hover {
+  color: #1b1a1a42;
 }

@@ -1,4 +1,71 @@
+@media (max-width: 1221px) {
+  .content-find iframe {
+    max-width: 430px;
+    max-height: 700px;
+    margin-top: 30px;
+  }
+  .registration-sector .row form .form-control {
+    width: 70% !important;
+  }
+  .registration-sector .col-6 {
+    width: 430px;
+    text-align: center;
+  }
+}
+@media (max-width: 801px) {
+  .content-find iframe {
+    max-width: 330px;
+    max-height: 700px;
+    margin-top: 30px;
+  }
+  .registration-sector .row form .form-control {
+    width: 70% !important;
+  }
+  .registration-sector .col-6 {
+    width: 344px;
+  }
+}
+
 @media (max-width: 768px) {
+  p {
+    font-size: 14px;
+  }
+  h4 {
+    font-size: 16px;
+    padding-top: 0;
+    margin-top: 0;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  .content-job h4 {
+    padding-top: 0;
+  }
+  .content-job .list-unstyled li {
+    text-align: end;
+  }
+  .content-find iframe {
+    max-width: 250px;
+    max-height: 700px;
+    margin-top: 30px;
+  }
+  .content-job .text-muted {
+    width: 50%;
+  }
+  .content-job .col-md-12 {
+  }
+  .text-muted {
+    font-size: 14px;
+  }
+  .footer .list-unstyled li {
+    font-size: 12px;
+  }
+  .footer .list-unstyled h4 {
+    padding: 0;
+  }
+  .show .navbar-nav .nav-item {
+    margin: 0;
+  }
   .navbar > .container {
     display: flex;
     justify-content: space-between;
@@ -46,8 +113,69 @@
     margin-bottom: 10px;
     padding-right: 70px;
   }
+  .content-contact .text-muted {
+    margin-left: 90px;
+    margin-top: 0;
+  }
+  .content-contact .w-25 {
+    width: 200px !important;
+    margin: 0 !important;
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .content-contact .text-end {
+    width: 150px !important;
+    margin: 0 !important;
+    padding-right: 0;
+    padding-left: 0;
+    align-items: flex-start;
+  }
+  .content-contact .col-6 {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .content-contact .w-50 {
+    width: 200px !important;
+  }
+  .content-contact .needs-validation {
+    margin-left: 1px;
+  }
+  .registration-sector .row form .form-control {
+    width: 75% !important;
+  }
+  .registration-sector .col-6 {
+    width: 350px;
+  }
 }
 @media (max-width: 575px) {
+  p {
+    font-size: 14px;
+  }
+  h4 {
+    font-size: 16px;
+    padding-top: 0;
+    margin-top: 0;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  .text-muted {
+    font-size: 14px;
+  }
+  .footer .list-unstyled li {
+    font-size: 12px;
+  }
+  .footer .list-unstyled h4 {
+    padding: 0;
+  }
+  .show .navbar-nav .nav-item {
+    margin: 0;
+  }
+  .content-find iframe {
+    max-width: 180px;
+    max-height: 700px;
+    margin-top: 30px;
+  }
   .navbar > .container {
     display: flex;
     justify-content: space-between;
@@ -91,5 +219,25 @@
     color: #1d1f2e;
     margin-bottom: 10px;
     padding-right: 30px;
+  }
+  .content-contact .text-muted {
+    margin-left: 90px;
+    margin-top: 0;
+  }
+  .content-contact > .w-25 {
+    width: 150px !important;
+  }
+  .show .navbar-nav .nav-item {
+    margin: 0;
+  }
+  .registration-sector .row form .form-control {
+    width: 100% !important;
+  }
+  .registration-sector .col-6 {
+    width: 350px;
+  }
+  .registration-sector .container {
+    margin-left: 10px;
+    width: 95%;
   }
 }

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width; initial-scale=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -52,8 +52,7 @@
     ></script>
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/adaptation.css" />
-
-    <title>О нас</title>
+    <title>Транслогистик</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
@@ -82,9 +81,7 @@
             <li class="nav-item">
               <a class="nav-link" href="./findus.html">Где нас найти</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./contacts.html">Связь с нами</a>
-            </li>
+            <li class="nav-item nav-link current-page">Связь с нами</li>
             <li class="nav-item">
               <ul class="navbar-nav mb-2 mb-lg-0">
                 <li class="nav-item dropdown">
@@ -113,66 +110,56 @@
         </div>
       </div>
     </nav>
-    <div class="content-job">
+    <div class="content-contact">
       <div class="container">
-        <div class="content-job-menu">
-          <div class="row">
-            <h4 style="width: 50%">Подать резюме на любую вакансию:</h4>
-            <div class="col-6" style="z-index: 2">
-              <ul class="list-unstyled d-flex flex-column align-items-end">
-                <li><h3 style="margin-bottom: 30px">Дополнительно:</h3></li>
-                <li><a href="./faq.html">ЧаВО</a></li>
-                <li class="current-page">Работа с нами</li>
-              </ul>
+        <div class="row">
+          <div class="col-6">
+            <h3 class="mb-3">Связь с нами</h3>
+            <p>
+              Если у вас возникли вопросы к нашей деятельности или иные вопросы,
+              которые не указаны в FAQ, то просим вас связаться по форме,
+              указанной снизу. Пожалуйста, перед отправкой формы ознакомьтесь с
+              нашей страницей <a href="./faq.html">FAQ</a>.
+            </p>
+          </div>
+          <div class="col-6 text-end w-25 text-muted">
+            Все неадекватные, спам- и флуд-сообщения будут оставаться без
+            ответа. Пожалуйста, соблюдайте правила правописания.
+          </div>
+          <form class="row g-5 needs-validation" novalidate>
+            <div class="col-md-12">
+              <label for="validateEmail" class="form-label"
+                >Адрес эл. почты</label
+              >
+              <input
+                type="email"
+                class="form-control w-25"
+                id="validateEmail"
+                required
+              />
+              <div class="invalid-feedback">Введите почту</div>
             </div>
-          </div>
-        </div>
-        <form class="row g-5 needs-validation" novalidate>
-          <div style="z-index: 1" class="col-md-12">
-            <label for="validateEmail" class="form-label"
-              >Адрес эл. почты</label
-            >
-            <input
-              type="email"
-              class="form-control w-50"
-              id="validateEmail"
-              required
-            />
-            <div class="invalid-feedback">Введите почту</div>
-          </div>
 
-          <div class="col-md-12">
-            <label for="Text" class="form-label">Краткое резюме</label>
-            <textarea
-              type="email"
-              class="form-control w-50"
-              id="Text"
-              placeholder="Иван, 33 года, два высших"
-              required
-            ></textarea>
-            <div class="invalid-feedback">Введите краткое резюме</div>
-          </div>
-          <div class="col-md-12">
-            <label for="validateFile" class="form-label"
-              >Отправьте полное резюме</label
-            >
-            <input
-              type="file"
-              class="form-control w-50"
-              id="validateFile"
-              required
-            />
-            <div class="invalid-feedback">Вложите файл</div>
-          </div>
-          <div class="col-12">
-            <button class="btn btn-outline-dark" type="submit">
-              Отправить резюме
-            </button>
-          </div>
-          <p class="text-muted">
-            Ваше резюме будет рассмотрено в течение 2-3 рабочих дней.
-          </p>
-        </form>
+            <div class="col-md-12 col-xs-12">
+              <label for="validateText" class="form-label"
+                >Ваше обращение</label
+              >
+              <textarea
+                type="email"
+                class="form-control w-50"
+                id="validateText"
+                placeholder="Иван, 33 года, два высших"
+                required
+              ></textarea>
+              <div class="invalid-feedback">Введите обращение</div>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-outline-dark" type="submit">
+                Отправить обращение
+              </button>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
     <section class="footer my-footer">
